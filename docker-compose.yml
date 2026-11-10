@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_PATH: /data/telemetry.sqlite
+      CORS_ORIGINS: http://localhost:8080,http://localhost:5173
+    volumes:
+      - telemetry_data:/data
+    ports:
+      - '8000:8000'
+  frontend:
+    build: ./frontend
+    ports:
+      - '8080:80'
+    depends_on:
+      - backend
+volumes:
+  telemetry_data:

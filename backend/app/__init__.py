@@ -1,0 +1,1 @@
+"""Educational aircraft simulation API."""

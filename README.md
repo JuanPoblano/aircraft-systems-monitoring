@@ -1,4 +1,8 @@
-> **v1.2.0:** Adds multilingual navigation (EN/ES/FR), explicit modeled fault explanations, a browser favicon and more transparent event information.
+### Why I Built This Project
+
+With a background in Aircraft Maintenance (Avionics) and my current studies in Computer Systems Engineering, I wanted to create something that connects both fields.
+
+I started this project out of personal curiosity and a desire to put my technical knowledge into practice. Building an interactive aircraft systems simulator gave me the opportunity to explore telemetry, fault diagnosis, software architecture, and the integration of frontend and backend technologies.
 
 # Aircraft Systems Monitoring & Fault Diagnosis
 
